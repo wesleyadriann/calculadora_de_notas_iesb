@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-display: swap;
+    src: local('Roboto'), local('Roboto-Regular'), url(../assets/fonts/OpenSans-Regular.ttf) format('truetype');
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
