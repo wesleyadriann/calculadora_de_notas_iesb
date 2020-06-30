@@ -8,9 +8,13 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -20,7 +24,61 @@ header {
     width: 100%;
 }
 
+header > div {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 main {
     padding: 1em;
     width: 100%;
+}
+
+main > div {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    padding-top: 0.8em;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+.navbar li {
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.navbar a {
+    color: black;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper label {
+    margin-top: 0.6em;
+}
+
+.feedback-wrapper {
+    margin: 1em 0;
+    text-align: center;
+}
+
+.feedback-wrapper p {
+    min-height: 23px;
 }
