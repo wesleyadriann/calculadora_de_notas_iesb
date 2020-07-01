@@ -40,8 +40,22 @@
                             type='number'
                         >
                     </div>
+                    <div class="input-wrapper">
+                        <label for='onlyA1obj'>Com qual média deseja passar?</label>
+                        <input
+                            id='onlyA1'
+                            max='10'
+                            min='0'
+                            step='0.01'
+                            type='number'
+                            value='5'
+                        >
+                    </div>
+                    <div class='button-wrapper'>
+                        <button id='calc_A1'>Calcular</button>
+                    </div>
                     <div class="feedback-wrapper">
-                        <p>É necessário tirar <span>x</span> na A2</p>
+                        <p></p>
                     </div>
                 </div>
                 <div id="A1A2">
@@ -66,8 +80,11 @@
                             type='number'
                         >
                     </div>
+                    <div class='button-wrapper'>
+                        <button id='calc_A1A2'>Calcular</button>
+                    </div>
                     <div class="feedback-wrapper">
-                        <p>Será necessário fazer A3 e tirar <span>x</span></p>
+                        <p>Será necessário fazer A3 e tirar</p>
                     </div>
                 </div>
                 <div id="A3">
@@ -101,6 +118,9 @@
                             step='0.01'
                             type='number'
                         >
+                    </div>
+                    <div class='button-wrapper'>
+                        <button id="calc_A3">Calcular</button>
                     </div>
                     <div class="feedback-wrapper">
                         <p>Aprovado | Reprovado</p>

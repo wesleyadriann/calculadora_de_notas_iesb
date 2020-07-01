@@ -41,7 +41,7 @@ header {
 header > div {
     display: flex;
     justify-content: space-between;
-    max-width: 900px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -144,6 +144,27 @@ h3 {
 
 .input-wrapper input {
     padding: 8px;
+}
+
+.button-wrapper {
+    margin-top: 0.6em;
+    text-align: center;
+}
+
+.button-wrapper button {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .button-wrapper button {
+        width: auto;
+    }
+}
+
+@media (min-width: 600px) {
+    .button-wrapper button {
+        width: auto;
+    }
 }
 
 .feedback-wrapper {
