@@ -10,6 +10,13 @@
         <header>
             <div>
                 <h2>IESB - Calculadora de notas</h2>
+
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider"></div>
+                  </label>
+                </div>
             </div>
         </header>
         <main>
@@ -25,7 +32,13 @@
                     <h3>A1</h3>
                     <div class="input-wrapper">
                         <label for='onlyA1'>Qual sua A1</label>
-                        <input id='onlyA1' step='0.01' type='number'>
+                        <input
+                            id='onlyA1'
+                            max='10'
+                            min='0'
+                            step='0.01'
+                            type='number'
+                        >
                     </div>
                     <div class="feedback-wrapper">
                         <p>É necessário tirar <span>x</span> na A2</p>
@@ -35,11 +48,23 @@
                     <h3>A1 e A2</h3>
                     <div class="input-wrapper">
                         <label for='A1'>Qual sua A1</label>
-                        <input id='A1' step='0.01' type='number'>
+                        <input
+                            id='A1'
+                            max='10'
+                            min='0'
+                            step='0.01'
+                            type='number'
+                        >
                     </div>
                     <div class="input-wrapper">
                         <label for='A2'>Qual sua A2</label>
-                        <input id='A2' step='0.01' type='number'>
+                        <input
+                            id='A2'
+                            max='10'
+                            min='0'
+                            step='0.01'
+                            type='number'
+                        >
                     </div>
                     <div class="feedback-wrapper">
                         <p>Será necessário fazer A3 e tirar <span>x</span></p>
@@ -49,15 +74,33 @@
                     <h3>A3</h3>
                     <div class="input-wrapper">
                         <label for='subA1'>Qual sua A1</label>
-                        <input id='subA1' step='0.01' type='number'>
+                        <input
+                            id='subA1'
+                            max='10'
+                            min='0'
+                            step='0.01'
+                            type='number'
+                        >
                     </div>
                     <div class="input-wrapper">
                         <label for='subA2'>Qual sua A2</label>
-                        <input id='subA2' step='0.01' type='number'>
+                        <input
+                            id='subA2'
+                            max='10'
+                            min='0'
+                            step='0.01'
+                            type='number'
+                        >
                     </div>
                     <div class="input-wrapper">
                         <label for='A3'>Qual sua A3</label>
-                        <input id='A3' step='0.01' type='number'>
+                        <input
+                            id='A3'
+                            max='10'
+                            min='0'
+                            step='0.01'
+                            type='number'
+                        >
                     </div>
                     <div class="feedback-wrapper">
                         <p>Aprovado | Reprovado</p>
