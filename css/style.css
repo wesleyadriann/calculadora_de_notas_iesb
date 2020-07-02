@@ -152,6 +152,7 @@ h3 {
 }
 
 .button-wrapper button {
+    padding: 8px;
     width: 100%;
 }
 
@@ -174,6 +175,14 @@ h3 {
 
 .feedback-wrapper p {
     min-height: 23px;
+}
+
+.formula {
+    text-align: center;
+}
+
+.formula span {
+    font-weight: bold;
 }
 
 footer {
