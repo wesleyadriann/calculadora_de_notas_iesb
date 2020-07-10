@@ -1,4 +1,8 @@
 
+/**
+ * Calcula a nota necessaria para usuario ficar com a media que deseja
+ * @event calculaA1 
+ */
 function calculaA1() {
     const wrapper = document.querySelector('#A1');
     const [inputA1, inputObj] = wrapper.querySelectorAll('input');
@@ -11,6 +15,10 @@ function calculaA1() {
     }
 }
 
+/**
+ * Calcula nota que usuario tirou na A1 e A2 e informa se foi necessario para ser aprovado
+ * @event calculaA1A2 
+ */
 function calculaA1A2() {
     const wrapper = document.querySelector('#A1A2');
     const [inputA1, inputA2] = wrapper.querySelectorAll('input');
@@ -32,6 +40,10 @@ function calculaA1A2() {
     }
 }
 
+/**
+ * Calcula nota que usuario tirou na A3 e informa se foi necessario para ser aprovado
+ * @event calculaA3 
+ */
 function calculaA3() {
     const wrapper = document.querySelector('#A3');
     const [inputA1, inputA2, inputA3] = wrapper.querySelectorAll('input');
@@ -52,6 +64,10 @@ function calculaA3() {
     }
 }
 
+/**
+ * Atribui as funções para os botões de calcular nota
+ * @event buttonsEvent 
+ */
 function buttonsEvent(event) {
     const buttonsFunc = {
         'calc_A1': calculaA1,
@@ -61,6 +77,9 @@ function buttonsEvent(event) {
     buttonsFunc[event.target.id]();
 }
 
+/**
+ * Função principal exportdata por padrão 
+ */
 function calculaNotas() {
     const buttons = document.querySelectorAll('button');
 
