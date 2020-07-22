@@ -1,5 +1,8 @@
 IESB - Calculadora de Notas
 ============
+![](https://img.shields.io/github/deployments/wesleyadriann/calculadora_de_notas_iesb/github-pages?label=github%20pages&style=flat-square)
+![GitHub](https://img.shields.io/github/license/wesleyadriann/calculadora_de_notas_iesb?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/wesleyadriann/calculadora_de_notas_iesb?style=flat-square)    
 [Calculadora de Notas](https://wesleyadriann.github.io/calculadora_de_notas_iesb/)
 
 ## 📝 Descrição
@@ -13,7 +16,7 @@ Calculadora de Notas A1, A2 e A3 do [IESB](https://www.iesb.br/)
 
 ## ↪ Status do projeto
 
-- **Em Desenvolvimento**
+- **Concluido**
 
 ## 📍 URL do Projeto
 
