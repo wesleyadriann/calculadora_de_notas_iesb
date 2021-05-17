@@ -1,9 +1,10 @@
-import changeThemeListener from './changeThemeListener.js';
-import calculaNotas from './calculaNotas.js';
+import '../css/style.css'
 
 function App() {
-    changeThemeListener();
-    calculaNotas();
+    import('./changeThemeListener')
+        .then((module) => module.default())
+    import('./calculaNotas')
+        .then((module) => module.default())
 }
 
 App();
