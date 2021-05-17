@@ -1,0 +1,1 @@
+(self.webpackChunkcalculadora_de_notas_iesb=self.webpackChunkcalculadora_de_notas_iesb||[]).push([[843],{843:(e,t,c)=>{"use strict";c.r(t),c.d(t,{default:()=>a});const a=function(){document.querySelector('.theme-switch input[type="checkbox"]').addEventListener("change",(e=>{const t=e.target.checked?"dark":"light";document.documentElement.setAttribute("data-theme",t)}))}}}]);
