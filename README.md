@@ -1,9 +1,19 @@
-IESB - Calculadora de Notas
-============
-![](https://img.shields.io/github/deployments/wesleyadriann/calculadora_de_notas_iesb/github-pages?label=github%20pages&style=flat-square)
-![GitHub](https://img.shields.io/github/license/wesleyadriann/calculadora_de_notas_iesb?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/wesleyadriann/calculadora_de_notas_iesb?style=flat-square)    
-[Calculadora de Notas](https://wesleyadriann.github.io/calculadora_de_notas_iesb/)
+<h1 align="center">
+  IESB - Calculadora de Notas
+</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/github/deployments/wesleyadriann/calculadora_de_notas_iesb/github-pages?label=github%20pages&style=flat-square">
+  <img src="https://img.shields.io/github/license/wesleyadriann/calculadora_de_notas_iesb?style=flat-square">
+  <img src="https://img.shields.io/github/last-commit/wesleyadriann/calculadora_de_notas_iesb?style=flat-square">
+  <img src="https://img.shields.io/github/repo-size/wesleyadriann/calculadora_de_notas_iesb?style=flat-square">
+</p>
+
+<p align="center">
+  <a href="https://wesleyadriann.github.io/calculadora_de_notas_iesb/">
+    Calculadora
+  </a>
+</p>
 
 ## 📝 Descrição
 
