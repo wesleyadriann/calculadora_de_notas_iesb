@@ -14,11 +14,14 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.css$/,
-                use: [MiniCssExtractPlugin.loader, 'css-loader']
+                test: /\.css$/i,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    'css-loader'
+                ]
             },
             {
-                test: /\.ttf$/,
+                test: /\.ttf$/i,
                 use: [
                   {
                     loader: 'file-loader',
@@ -45,12 +48,16 @@ module.exports = {
             hash: true
         }),
         new MiniCssExtractPlugin({
-            filename: 'style.css'
+            filename: '[name].css',
+            chunkFilename: '[id].css',
         }),
         new webpack.optimize.ModuleConcatenationPlugin()
     ],
     devServer: {
-        contentBase: path.resolve(__dirname, 'dist'),
+        static: {
+            directory: path.join(__dirname, 'dist'),
+        },
+        compress: true,
         port: 3000
     }
 };
